@@ -1,0 +1,34 @@
+
+@media all and (min-width: 768px){
+    div#navbar {
+        flex-direction: column;
+    }
+    button {
+        text-align: center;
+    }
+    .buttonwrapper {
+        color: white;
+        text-align: center;
+    }
+    .imgwrapper {
+        flex-direction: column;
+    }
+
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+

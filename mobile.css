@@ -1,0 +1,54 @@
+
+body {
+    background-image: url("img/cssmountain.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
+
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+.buttonwrapper{
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.imgwrapper {
+
+}
+.pannel {
+
+}
