@@ -1,10 +1,3 @@
-body {
-    background-image: url("img/cssmountain.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    background-repeat: no-repeat;
-}
 
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
@@ -37,12 +30,12 @@ button {
 
 h1 {
     text-align: center;
-    color: white;
+    color: darkslategrey;
 }
 
 h2 {
     text-align: center;
-    color: white;
+    color: darkslategrey;
 }
 
 .imgwrapper {
@@ -50,4 +43,13 @@ h2 {
 }
 .pannel {
 
+}
+
+article {
+    color: darkslategrey;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
 }

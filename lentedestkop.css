@@ -16,21 +16,4 @@
 
     img {
         margin: auto;
-    }
-
-}
-
-h1 {
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-#navbar {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-}
+    }}

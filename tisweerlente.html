@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TisWeerLente</title>
+    <link rel="stylesheet" href="lente.css">
+    <link rel="stylesheet" href="lentedestkop.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <style>
+
+
+        .accordion {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: center;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+
+
+        .active, .accordion:hover {
+            background-color: #ccc;
+        }
+
+        .panel {
+            padding: 0 18px;
+            background-color: black;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+
+
+    </style>
+</header>
+
+<body>
+<button class="accordion">=</button>
+<div class="panel">
+    <button class="buttonwrapper"> <a href="Archeologie.html">Archeologie</a></button>
+    <button class="buttonwrapper"><a href="Backpacking.html">Backpacking</a></button>
+    <button class="buttonwrapper"><a href="Bergklimmen.html">Bergklimmen</a></button>
+    <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>\
+    <input type="text" placeholder="Search..">
+</div>
+
+<div id="navbar">
+
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+</body>
+<h1><a href="http://localhost:63342/CSS-Challenge/index.html?_ijt=nvtnge634iogsllde2mp9661fm">CHALLENGE</a></h1>
+<h3>19 januari 2019</h3>
+<h2>TIS WEER LENTE</h2>
+<article>
+    Nullam hendrerit, sem at condimentum elementum, enim sem pharetra purus, eget faucibus enim ante sed elit. Etiam iaculis auctor nulla, ac congue nisl fermentum a. Suspendisse aliquet nisi eget mi auctor laoreet. Pellentesque porta tristique leo, eget fringilla mauris luctus in. Suspendisse dictum, odio non lacinia blandit, nisl lectus ultricies mauris, quis consequat velit tortor blandit risus. In hac habitasse platea dictumst. Nam venenatis bibendum convallis. Vivamus a tellus nec erat ullamcorper interdum. Donec facilisis ante eget ligula porttitor fringilla sit amet ac odio. Nunc rhoncus blandit nulla, eu ornare eros consectetur vel. Fusce tortor purus, faucibus non turpis vitae, tristique faucibus orci. In vel felis a sem sodales hendrerit nec id ex. In sed accumsan eros. Cras scelerisque nunc est, quis aliquam metus vulputate nec. Suspendisse iaculis, augue quis placerat dictum, erat odio finibus dolor, quis lacinia magna eros nec massa. <img src="img/koe.jpg">
+</article>
+
+<article>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a enim lectus. Praesent posuere ligula eu massa dapibus, ut iaculis elit vulputate. Nulla ut scelerisque ante. Phasellus tincidunt, eros non vulputate viverra, arcu magna sollicitudin magna, vel aliquam risus nisl sed sapien. Duis sit amet velit tincidunt, placerat lacus ut, pretium odio. Maecenas quis enim elit. Curabitur quis porttitor lectus. Sed convallis molestie tellus sed porttitor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse dictum id lorem et efficitur. Morbi sit amet accumsan ante, vitae tristique nunc. Nullam ultrices nibh et arcu tincidunt, maximus porttitor augue euismod. Sed ut nisi eget quam convallis molestie. Etiam luctus mi nisi. Donec vitae nibh non turpis dapibus ornare vel at lectus. Etiam sit amet elit sit amet nulla aliquam accumsan non ac nunc.
+</article>
+</body>
+</html>
+

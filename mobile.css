@@ -34,6 +34,7 @@ button {
 .buttonwrapper{
     background-color: black;
     text-align: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -51,4 +52,72 @@ h2 {
 }
 .pannel {
 
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.panel {
+    text-align: center;
+    flex-direction: column;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.accordion {
+    size: 50px;
+}
+
+.flex-container {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+div#wrapper {
+    margin:auto;
+    width:300px;
+    background-color: white;
+    padding:200px;
+}
+
+.container{
+    flex-wrap:nowrap;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.articlewrapper{
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.letter {
+    color: black;
+    padding-left: auto;
+}
+
+h3 {
+    color: lightslategray;
 }
