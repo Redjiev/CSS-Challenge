@@ -2,6 +2,7 @@
 @media all and (min-width: 768px){
     div#navbar {
         flex-direction: column;
+        text-align: center;
     }
     button {
         text-align: center;
